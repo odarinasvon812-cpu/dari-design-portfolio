@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daria Veselovska — UX/UI Designer</title>
+  <meta name="description" content="Портфоліо Junior UX/UI дизайнера Дарії Веселовської з Дніпра, Україна" />
+  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">dari design <span>♡</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">Про мене</a></li>
+    <li><a href="#projects">Проєкти</a></li>
+    <li><a href="#about">Навички</a></li>
+    <li><a href="#projects">Процес</a></li>
+    <li><a href="#footer">Контакти</a></li>
+  </ul>
+  <div class="nav-socials">
+    <a href="https://t.me/Dariya_812" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+    <a href="https://instagram.com/_daria_8.1.2" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="mailto:odarinasvon812@gmail.com" title="Email"><i class="fas fa-envelope-circle-check"></i></a>
+  </div>
+  <div class="burger" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-blob hero-blob-1"></div>
+  <div class="hero-blob hero-blob-2"></div>
+  <div class="hero-text">
+    <h1 class="hero-greeting">
+      Привіт, я Дарія <span class="heart">♡</span>
+    </h1>
+    <p class="hero-sub">
+      Створюю зручні та естетичні інтерфейси,<br>
+      які вирішують задачі бізнесу<br>
+      та дарують користувачам приємний досвід
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-pink">Мої проєкти</a>
+      <a href="#" class="btn-outline open-modal">Зв'язатися зі мною</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="hero-img-wrap">
+      <img src="images/hero-bg.jpg" alt="Робоче місце дизайнера" />
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-col">
+    <h2 class="about-col-title">Про мене</h2>
+    <div class="about-photo-wrap">
+      <img src="images/photo.png" alt="Дарія Веселовська" class="about-photo" />
+      <div>
+        <p class="about-text" style="margin-bottom:12px;">Я молодший UX/UI дизайнер з Дніпра, України, який поєднує дизайн із медичним бекграундом та психологічною освітою.</p>
+        <p class="about-text">Досвід роботи в невідкладній медичній допомозі навчив мене залишатися зосередженою, мислити про потреби людей та знаходити рішення в складних ситуаціях — цінності, які я привношу в кожен проєкт.</p>
+      </div>
+    </div>
+  </div>
+  <div class="about-col">
+    <h2 class="about-col-title">Навички</h2>
+    <ul class="skills-list">
+      <li>Figma</li>
+      <li>Adobe Photoshop</li>
+      <li>AI-Assisted Design</li>
+      <li>UX Research</li>
+      <li>Wireframing</li>
+      <li>User Flow</li>
+      <li>Design Systems</li>
+      <li>E-commerce Design</li>
+    </ul>
+  </div>
+  <div class="about-col">
+    <p class="contact-card-title">Давай створимо щось круте разом</p>
+    <a href="#" class="btn-outline open-modal">Написати мені</a>
+    <div class="contact-info">
+      <a href="mailto:odarinasvon812@gmail.com">
+        <span class="contact-icon"><i class="fab fa-google"></i></span>
+        odarinasvon812@gmail.com
+      </a>
+      <a href="#">
+        <span class="contact-icon"><i class="fas fa-location-dot"></i></span>
+        Україна, Дніпро
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title">Мої проєкти</h2>
+  <div class="projects-grid">
+
+    <a href="pages/bookstore.html" class="project-card">
+      <img src="images/project-bookstore.png" alt="Магазин книжок" class="project-img" />
+      <div class="project-body">
+        <h3 class="project-title">Магазин книжок</h3>
+        <p class="project-desc">Атмосферна онлайн-книгарня, створена щоб передати відчуття входу до справжнього книжкового магазину. Повний UX-процес від дослідження до hi-fi прототипу.</p>
+        <span class="btn-figma" onclick="event.stopPropagation(); event.preventDefault(); window.open('https://www.figma.com/proto/nsHakCwisUQVIzBdEGGvGy/%D0%92okstore?page-id=0%3A1&node-id=1-44&viewport=-1860%2C259%2C0.16&t=LFb41pQcBHXrCgCJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A44', '_blank')">
+          Переглянути у Фігма <span class="arrow">→</span>
+        </span>
+      </div>
+    </a>
+
+    <a href="pages/odesa.html" class="project-card">
+      <img src="images/project-odesa.png" alt="Тур по Одесі" class="project-img" />
+      <div class="project-body">
+        <h3 class="project-title">Тур по Одесі</h3>
+        <p class="project-desc">Односторінковий сайт для туру містом Одеса. Створений щоб занурити відвідувача в атмосферу міста ще до приїзду.</p>
+        <span class="btn-figma" onclick="event.stopPropagation(); event.preventDefault(); window.open('https://www.figma.com/proto/47ut2vF28HpLExnyZVbGkK/UX-UI-DESIGN?page-id=164%3A278&node-id=356-355&viewport=370%2C541%2C0.12&t=NHpeHAp2bpJdh44f-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=356%3A355&show-proto-sidebar=1', '_blank')">
+          Переглянути у Фігма <span class="arrow">→</span>
+        </span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-blob-1"></div>
+  <div class="footer-blob-2"></div>
+  <div class="footer-left">
+    <h2 class="footer-title">Працюймо разом</h2>
+    <h3 style="font-size:clamp(20px,3vw,30px); font-weight:700; color:var(--text); margin-bottom:14px;">Зв'яжіться зі мною</h3>
+    <p>Відкрита до junior-позицій, стажування та фріланс-проєктів. Якщо ви шукаєте дизайнера, якому важливі і естетика, і зручність — давайте поговоримо.</p>
+    <a href="#" class="btn-pink open-modal" style="display:inline-flex; margin-top:8px;">Написати мені</a>
+  </div>
+  <div class="footer-right">
+    <div class="footer-logo">dari design <span>♡</span></div>
+    <div class="footer-btns">
+      <a href="#" class="btn-pink open-modal">Написати мені</a>
+      <a href="#projects" class="btn-outline">Мої проєкти</a>
+      <a href="#about" class="btn-outline">Про мене</a>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">
+  © 2025 Daria Veselovska · Junior UX/UI Designer · Дніпро, Україна
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="contactModal">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Закрити">×</button>
+    <h3 class="modal-title">Зв'язатися зі мною</h3>
+    <p class="modal-sub">Оберіть зручний спосіб</p>
+    <div class="modal-options">
+      <a href="https://t.me/Dariya_812" target="_blank" class="modal-option">
+        <span class="modal-option-icon"><i class="fab fa-telegram" style="color:#2AABEE"></i></span>
+        <div><div class="modal-option-label">Telegram</div><div class="modal-option-value">@Dariya_812</div></div>
+      </a>
+      <a href="mailto:odarinasvon812@gmail.com" class="modal-option">
+        <span class="modal-option-icon"><i class="fas fa-envelope" style="color:#EA4335"></i></span>
+        <div><div class="modal-option-label">Email</div><div class="modal-option-value">odarinasvon812@gmail.com</div></div>
+      </a>
+      <a href="https://instagram.com/_daria_8.1.2" target="_blank" class="modal-option">
+        <span class="modal-option-icon"><i class="fab fa-instagram" style="color:#E1306C"></i></span>
+        <div><div class="modal-option-label">Instagram</div><div class="modal-option-value">_daria_8.1.2</div></div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<button class="back-top" aria-label="Нагору">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
